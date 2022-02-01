@@ -1,0 +1,11 @@
+number = 100
+summ = 0
+while number < 1000:
+    nu = str(number)
+    for i in nu:
+        i = int(i)
+        summ += i
+    if number % summ == 0 and summ == 13:
+        print(number, ' ')
+    summ = 0
+    number += 1
