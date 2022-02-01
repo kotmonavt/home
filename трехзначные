@@ -6,6 +6,6 @@ while number < 1000:
         i = int(i)
         summ += i
     if number % summ == 0 and summ == 13:
-        print(number, ' ')
+        print(number)
     summ = 0
     number += 1
